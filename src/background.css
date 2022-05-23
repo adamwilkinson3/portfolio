@@ -1,0 +1,44 @@
+:root {
+    --x: 0;
+    --y: 0;
+    --x2: 0;
+    --y2: 0;
+    --x3: 0;
+    --y3: 0;
+}
+.dot {
+    position: fixed;
+    height: 100px;
+    width: 100px;
+    background-color: lemonchiffon;
+    opacity: 90%;
+    border-radius: 50%;
+
+    box-shadow: 0 0 80px gold, inset 0 0 100px yellow;
+    /* animation: pulse 2s linear 1s infinite; */
+
+}
+
+@keyframes pulse {
+    0% {
+      background-color: #001F3F;
+    }
+    100% {
+      background-color: #FF4136;
+    }
+  }
+.dota {
+    left: 20vw;
+    top: 40vh;
+    transform: translateX(var(--x)) translateY(var(--y));
+}
+.dotb {
+    left: 60vw;
+    top: 60vh;
+    transform: translateX(var(--x2)) translateY(var(--y2));
+}
+.dotc {
+    left: 60vw;
+    top: 20vh;
+    transform: translateX(var(--x3)) translateY(var(--y3));
+}
