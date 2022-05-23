@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). [Link to site](https://lighthearted-smakager-129d2b.netlify.app)
 
 ## Available Scripts
 
