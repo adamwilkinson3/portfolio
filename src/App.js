@@ -63,7 +63,7 @@ function App() {
       <div className='snap'>
         <div className={`${content2 ? 'header-in' : 'hidden'}`}>
           <div className='projdisplay'>
-            <a href="https://github.com/adamwilkinson3/avionics" target="_blank" rel="noreferrer">
+            <a href="https://voluble-dodol-2713d6.netlify.app/" target="_blank" rel="noreferrer">
               <img src={proj1} alt='proj1' />
             </a>
           <div className='proj-footer'>
@@ -77,7 +77,7 @@ function App() {
       <div className='snap'>
         <div className={`${content3 ? 'header-in' : 'hidden'}`}>
         <div className='projdisplay'>
-            <a href="https://github.com/adamwilkinson3/tobispizza" target="_blank" rel="noreferrer">
+            <a href="https://ornate-squirrel-5f12d0.netlify.app/" target="_blank" rel="noreferrer">
               <img src={proj2} alt='proj2' />
             </a>
             <div className='proj-footer'>
