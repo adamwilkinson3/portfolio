@@ -55,6 +55,7 @@ function App() {
   return (
     <div className='background'>
       <Background />
+      <div className='bottom'></div>
       <div className='snap'>
         <div className={`${content1 ? 'header-in' : 'hidden'}`}>
           <h1>My Portfolio</h1>
@@ -91,7 +92,7 @@ function App() {
       <div className='snap'>
         <div className={`${content4 ? 'header-in' : 'hidden'}`}>
           <div class='contact'>
-            <a href="https://www.linkedin.com/in/adam-wilkinson-784793105/" target="_blank" rel="noreferrer"><FaLinkedin /></a>
+            <a href="https://www.linkedin.com/in/adam-wilkinson3/" target="_blank" rel="noreferrer"><FaLinkedin /></a>
             <a href="https://github.com/adamwilkinson3?tab=repositories" target="_blank" rel="noreferrer"><FaGithub /></a>
           </div>
         </div>

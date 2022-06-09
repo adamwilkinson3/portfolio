@@ -30,7 +30,7 @@ function Background() {
                 scrspd = 1;
             }, 500);
         }, false)
-        setInterval(() => {
+        let loop1 = setInterval(() => {
             r = (a * b)/((b**2 - a**2) * (Math.cos(rad))**2 + a**2)**.5;
             x1 = r * Math.cos(rad);
             y1 = r * Math.sin(rad);
@@ -41,7 +41,7 @@ function Background() {
             document.body.style.setProperty('--x', x2 + 'vh');
             document.body.style.setProperty('--y', y2 + 'vh');
         }, 10)
-        setInterval(() => {
+        let loop2 = setInterval(() => {
             r = (a2 * b2)/((b2**2 - a2**2) * (Math.cos(rad))**2 + a2**2)**.5;
             x1 = r * Math.cos(rad);
             y1 = r * Math.sin(rad);
@@ -52,7 +52,7 @@ function Background() {
             document.body.style.setProperty('--x2', x2 + 'vh');
             document.body.style.setProperty('--y2', y2 + 'vh');
         }, 15)
-        setInterval(() => {
+        let loop3 = setInterval(() => {
             r = (a3 * b3)/((b3**2 - a3**2) * (Math.cos(-rad))**2 + a3**2)**.5;
             x1 = r * Math.cos(-rad);
             y1 = r * Math.sin(-rad);
@@ -63,6 +63,11 @@ function Background() {
             document.body.style.setProperty('--x3', x2 + 'vh');
             document.body.style.setProperty('--y3', y2 + 'vh');
         }, 15)
+        return function cleanup() {
+            clearInterval(loop1);
+            clearInterval(loop2);
+            clearInterval(loop3);
+        }
     }, [])
     
   return (

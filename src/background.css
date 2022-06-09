@@ -13,20 +13,8 @@
     background-color: lemonchiffon;
     opacity: 90%;
     border-radius: 50%;
-
     box-shadow: 0 0 80px gold, inset 0 0 100px yellow;
-    /* animation: pulse 2s linear 1s infinite; */
-
 }
-
-@keyframes pulse {
-    0% {
-      background-color: #001F3F;
-    }
-    100% {
-      background-color: #FF4136;
-    }
-  }
 .dota {
     left: 20vw;
     top: 40vh;
