@@ -3,6 +3,7 @@ import { useState, useEffect } from 'react'
 import Background from './Background'
 import proj1 from './assets/proj1.JPG'
 import proj2 from './assets/proj2.JPG'
+import proj3 from './assets/proj3.JPG'
 import { FaGithub, FaLinkedin } from 'react-icons/fa'
 
 function App() {
@@ -23,7 +24,8 @@ function App() {
   const [content2, setContent2] = useState(false);
   const [content3, setContent3] = useState(false);
   const [content4, setContent4] = useState(false);
-  const divider = 1/4;
+  const [content5, setContent5] = useState(false);
+  const divider = 1/5;
 
   window.addEventListener('scroll', () => {
     let scr = window.pageYOffset / (document.body.offsetHeight - window.innerHeight);
@@ -44,10 +46,15 @@ function App() {
     } else {
       setContent3(false)
     }
-    if (scroll >= divider * 3) {
+    if (scroll >= divider * 3 && scroll <= divider * 4) {
       setContent4(true)
     } else {
       setContent4(false)
+    }
+    if (scroll >= divider * 4) {
+      setContent5(true)
+    } else {
+      setContent5(false)
     }
 
   }, false)
@@ -69,7 +76,7 @@ function App() {
             </a>
           <div className='proj-footer'>
               <p></p>
-              <h2>An avionics training app built with HTML, CSS, and JavaScript</h2>
+              <h2>A sample version of an avionics training app built with HTML, CSS, and JavaScript</h2>
               <a href="https://github.com/adamwilkinson3/avionics" target="_blank" rel="noreferrer"><FaGithub /></a>
             </div>
           </div>
@@ -78,8 +85,22 @@ function App() {
       <div className='snap'>
         <div className={`${content3 ? 'header-in' : 'hidden'}`}>
         <div className='projdisplay'>
-            <a href="https://ornate-squirrel-5f12d0.netlify.app/" target="_blank" rel="noreferrer">
+            <a href="https://cerulean-baklava-c31a72.netlify.app/" target="_blank" rel="noreferrer">
               <img src={proj2} alt='proj2' />
+            </a>
+            <div className='proj-footer'>
+              <p></p>
+              <h2>A responsive clone of Amazon's front page using React and Sass</h2>
+              <a href="https://github.com/adamwilkinson3/amazon-clone" target="_blank" rel="noreferrer"><FaGithub /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className='snap'>
+        <div className={`${content4 ? 'header-in' : 'hidden'}`}>
+        <div className='projdisplay'>
+            <a href="https://ornate-squirrel-5f12d0.netlify.app/" target="_blank" rel="noreferrer">
+              <img src={proj3} alt='proj3' />
             </a>
             <div className='proj-footer'>
               <p></p>
@@ -90,7 +111,7 @@ function App() {
         </div>
       </div>
       <div className='snap'>
-        <div className={`${content4 ? 'header-in' : 'hidden'}`}>
+        <div className={`${content5 ? 'header-in' : 'hidden'}`}>
           <div class='contact'>
             <a href="https://www.linkedin.com/in/adam-wilkinson3/" target="_blank" rel="noreferrer"><FaLinkedin /></a>
             <a href="https://github.com/adamwilkinson3?tab=repositories" target="_blank" rel="noreferrer"><FaGithub /></a>
