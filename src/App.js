@@ -99,13 +99,13 @@ function App() {
       <div className='snap'>
         <div className={`${content4 ? 'header-in' : 'hidden'}`}>
         <div className='projdisplay'>
-            <a href="https://ornate-squirrel-5f12d0.netlify.app/" target="_blank" rel="noreferrer">
+            <a href="https://62ef14daee93ef0008339c36--gregarious-platypus-d37ef5.netlify.app/" target="_blank" rel="noreferrer">
               <img src={proj3} alt='proj3' />
             </a>
             <div className='proj-footer'>
               <p></p>
-              <h2>A pizza ordering website built with React and Redux</h2>
-              <a href="https://github.com/adamwilkinson3/tobispizza" target="_blank" rel="noreferrer"><FaGithub /></a>
+              <h2>Full stack website built with React, Typescript, Node, Express, MySQL, GraphQL, and JSON Web Tokens.</h2>
+              <a href="https://github.com/adamwilkinson3/rsvp-backend" target="_blank" rel="noreferrer"><FaGithub /></a>
             </div>
           </div>
         </div>
