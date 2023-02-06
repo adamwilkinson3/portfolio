@@ -85,13 +85,13 @@ function App() {
       <div className='snap'>
         <div className={`${content3 ? 'header-in' : 'hidden'}`}>
         <div className='projdisplay'>
-            <a href="https://cerulean-baklava-c31a72.netlify.app/" target="_blank" rel="noreferrer">
+            <a href="https://amazon-ecommerceapp.herokuapp.com/Home" target="_blank" rel="noreferrer">
               <img src={proj2} alt='proj2' />
             </a>
             <div className='proj-footer'>
               <p></p>
-              <h2>A responsive clone of Amazon's front page using React and Sass</h2>
-              <a href="https://github.com/adamwilkinson3/amazon-clone" target="_blank" rel="noreferrer"><FaGithub /></a>
+              <h2>Ecommerce App built with ASP.NET MVC, EntityFramework Core, ASP.NET Core Identity, Bootstrap 5, and CosmosDB</h2>
+              <a href="https://github.com/adamwilkinson3/Amazon3-Public" target="_blank" rel="noreferrer"><FaGithub /></a>
             </div>
           </div>
         </div>
