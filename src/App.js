@@ -2,8 +2,8 @@ import './App.css'
 import { useState, useEffect } from 'react'
 import Background from './Background'
 import proj1 from './assets/proj1.JPG'
-import proj2 from './assets/proj2.JPG'
-import proj3 from './assets/proj3.JPG'
+import proj2 from './assets/proj5.JPG'
+import proj3 from './assets/proj2.JPG'
 import { FaGithub, FaLinkedin } from 'react-icons/fa'
 
 function App() {
@@ -85,13 +85,13 @@ function App() {
       <div className='snap'>
         <div className={`${content3 ? 'header-in' : 'hidden'}`}>
         <div className='projdisplay'>
-            <a href="https://amazon-ecommerceapp.herokuapp.com/Home" target="_blank" rel="noreferrer">
+            <a href="https://dashboard846.herokuapp.com/" target="_blank" rel="noreferrer">
               <img src={proj2} alt='proj2' />
             </a>
             <div className='proj-footer'>
               <p></p>
-              <h2>Ecommerce App built with ASP.NET MVC, EntityFramework Core, ASP.NET Core Identity, Bootstrap 5, and CosmosDB</h2>
-              <a href="https://github.com/adamwilkinson3/Amazon3-Public" target="_blank" rel="noreferrer"><FaGithub /></a>
+              <h2>Dashboard with full CRUD operations created with Azure SQL, Dapper, and Stored Procedures accessed through an API</h2>
+              <a href="https://github.com/adamwilkinson3/Dashboard-API-Public" target="_blank" rel="noreferrer"><FaGithub /></a>
             </div>
           </div>
         </div>
@@ -99,13 +99,13 @@ function App() {
       <div className='snap'>
         <div className={`${content4 ? 'header-in' : 'hidden'}`}>
         <div className='projdisplay'>
-            <a href="https://62ef14daee93ef0008339c36--gregarious-platypus-d37ef5.netlify.app/" target="_blank" rel="noreferrer">
+            <a href="https://amazon-ecommerceapp.herokuapp.com/Home" target="_blank" rel="noreferrer">
               <img src={proj3} alt='proj3' />
             </a>
             <div className='proj-footer'>
               <p></p>
-              <h2>Full stack website built with React, Typescript, Node, Express, MySQL, GraphQL, and JSON Web Tokens.</h2>
-              <a href="https://github.com/adamwilkinson3/rsvp-backend" target="_blank" rel="noreferrer"><FaGithub /></a>
+              <h2>Ecommerce App built with ASP.NET MVC, EntityFramework Core, ASP.NET Core Identity, Bootstrap 5, and CosmosDB</h2>
+              <a href="https://github.com/adamwilkinson3/Amazon3-Public" target="_blank" rel="noreferrer"><FaGithub /></a>
             </div>
           </div>
         </div>
