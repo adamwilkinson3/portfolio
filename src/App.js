@@ -2,8 +2,8 @@ import './App.css'
 import { useState, useEffect } from 'react'
 import Background from './Background'
 import proj1 from './assets/proj1.JPG'
-import proj2 from './assets/proj5.JPG'
-import proj3 from './assets/proj2.JPG'
+import proj2 from './assets/proj6.JPG'
+import proj3 from './assets/proj5.JPG'
 import { FaGithub, FaLinkedin } from 'react-icons/fa'
 
 function App() {
@@ -85,13 +85,13 @@ function App() {
       <div className='snap'>
         <div className={`${content3 ? 'header-in' : 'hidden'}`}>
         <div className='projdisplay'>
-            <a href="https://dashboard846.herokuapp.com/" target="_blank" rel="noreferrer">
+            <a href="https://64ba2435022c340008e28e42--dynamic-chebakia-c2e79f.netlify.app/" target="_blank" rel="noreferrer">
               <img src={proj2} alt='proj2' />
             </a>
             <div className='proj-footer'>
               <p></p>
-              <h2>Dashboard with full CRUD operations created with Azure SQL, Dapper, and Stored Procedures accessed through an API</h2>
-              <a href="https://github.com/adamwilkinson3/Dashboard-API-Public" target="_blank" rel="noreferrer"><FaGithub /></a>
+              <h2>Chess App built with React and Typescript that utilizes Drag-and-Drop, also contains Checkmate, Stalemate, and Illegal Move logic</h2>
+              <a href="https://github.com/adamwilkinson3/chess" target="_blank" rel="noreferrer"><FaGithub /></a>
             </div>
           </div>
         </div>
@@ -99,13 +99,13 @@ function App() {
       <div className='snap'>
         <div className={`${content4 ? 'header-in' : 'hidden'}`}>
         <div className='projdisplay'>
-            <a href="https://amazon-ecommerceapp.herokuapp.com/Home" target="_blank" rel="noreferrer">
+            <a href="https://dashboard846.herokuapp.com/" target="_blank" rel="noreferrer">
               <img src={proj3} alt='proj3' />
             </a>
             <div className='proj-footer'>
               <p></p>
-              <h2>Ecommerce App built with ASP.NET MVC, EntityFramework Core, ASP.NET Core Identity, Bootstrap 5, and CosmosDB</h2>
-              <a href="https://github.com/adamwilkinson3/Amazon3-Public" target="_blank" rel="noreferrer"><FaGithub /></a>
+              <h2>Dashboard with full CRUD operations created with Azure SQL, Dapper, and Stored Procedures accessed through an API</h2>
+              <a href="https://github.com/adamwilkinson3/Dashboard-API-Public" target="_blank" rel="noreferrer"><FaGithub /></a>
             </div>
           </div>
         </div>
