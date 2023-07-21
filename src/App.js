@@ -104,7 +104,7 @@ function App() {
             </a>
             <div className='proj-footer'>
               <p></p>
-              <h2>Dashboard with full CRUD operations created with Azure SQL, Dapper, and Stored Procedures accessed through an API</h2>
+              <h2>Dashboard with full CRUD operations created with .NET MVC, Azure SQL, Dapper, and Stored Procedures accessed through an API</h2>
               <a href="https://github.com/adamwilkinson3/Dashboard-API-Public" target="_blank" rel="noreferrer"><FaGithub /></a>
             </div>
           </div>
